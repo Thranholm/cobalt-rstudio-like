@@ -1,12 +1,21 @@
 {
-  "name": "cobalt-r-classic",
-  "version": "0.0.3",
+  "name": "cobalt-rstudio-like",
+  "version": "0.1.0",
   "publisher": "thranholm",
   "license": "MIT",
   "displayName": "Cobalt (RStudio like)",
-  "description": "A cobalt theme for the Positron IDE inspired by RStudio's cobalt theme",
+  "description": "A cobalt theme for Positron and VS Code inspired by RStudio's Cobalt theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thranholm/cobalt-rstudio-like"
+  },
+  "homepage": "https://github.com/thranholm/cobalt-rstudio-like#readme",
+  "bugs": {
+    "url": "https://github.com/thranholm/cobalt-rstudio-like/issues"
+  },
   "engines": {
-    "vscode": "^1.109.0"
+    "vscode": "^1.94.0",
+    "positron": "^2024.09.0"
   },
   "categories": [
     "Themes"
@@ -15,7 +24,9 @@
     "dark",
     "R",
     "Positron",
-    "Cobalt"
+    "Cobalt",
+    "RStudio",
+    "color-theme"
   ],
   "contributes": {
     "themes": [

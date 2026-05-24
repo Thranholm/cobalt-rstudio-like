@@ -1,43 +1,54 @@
-# Cobalt (RStudio like)
+# Cobalt (RStudio like) Theme
 
-A Cobalt theme inspired by RStudio's Cobalt theme. Primarily developed to work with Positron.
+A Cobalt color theme for **Positron** and **VS Code**, inspired by RStudio's classic Cobalt theme with the aim of replicating that as closely as possible.
 
-The theme uses a deep blue and with sharp separation between panes as known from the RStudio IDE. The aim for the colour theme is to get it as close to RStudio's cobalt theme as possible.
+## Features
+
+- **Deep blue color scheme** reduced eye strain
+- **Sharp pane separation** with clear visual boundaries
+- **RStudio-like aesthetics** aim to loke as much as RStudio's Cobalt theme as possible
 
 ## Installation
 
-Once the theme is published to the **VSX Marketplace**, you can install it directly:
+### From Open VSX Registry
 
-1. Open **Positron** (or **VS Code**).
+1. Open **Positron** (or **VS Code**)
 2. Go to the **Extensions** view:
-   - Click the Extensions icon in the Activity Bar on the side of the window.
-   - Or press:
-     - `Ctrl+Shift+X` (Windows/Linux)
-     - `Cmd+Shift+X` (macOS)
-3. Search for **CobaltPositron-Theme**.
-4. Click **Install**.
+   - Click the Extensions icon in the Activity Bar
+   - Or press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS)
+3. Search for **Cobalt (RStudio like)**
+4. Click **Install**
+
+### Manual Installation
+
+Download the `.vsix` file and install it:
+
+```bash
+code --install-extension cobalt-rstudio-like-*.vsix
+```
 
 ## Activation
-
-After installing:
 
 1. Open the **Command Palette**:
    - `Ctrl+Shift+P` (Windows/Linux)
    - `Cmd+Shift+P` (macOS)
-2. Type `Color Theme` and select **Preferences: Color Theme**.
-3. From the list, choose **CobaltPositron-Theme**.
+2. Type `Preferences: Color Theme` and select it
+3. Choose **Cobalt (RStudio like)** from the list
 
-## Working with Markdown
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## License
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+MIT
 
-## For more information
+## Contributing
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/cobalt-rstudio-like/issues).
 
-**Enjoy!**
+## Author
+
+**thranholm**
+
+---
+
+Made with ❤️ for R users and Positron enthusiasts.
+

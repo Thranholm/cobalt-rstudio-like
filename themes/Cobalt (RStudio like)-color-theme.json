@@ -169,6 +169,8 @@
     "statusBar.border": "#404040b9",
     "titleBar.border": "#404040b9",
 
+    "positronConsole.ansiBlue": "#71b8ff",
+
     "textCodeBlock.background": "#1A3954",
  
   },
@@ -183,7 +185,12 @@
     },
     {
       "name": "String",
-      "scope": ["string", "string.quoted", "punctuation.definition.string.begin.yaml", "punctuation.definition.string.end.yaml"],
+      "scope": ["string", 
+                "string.quoted", 
+                "constant.character.escape",
+                "punctuation.definition.string.begin.yaml", 
+                "punctuation.definition.string.end.yaml"
+              ],
       "settings": {
         "foreground": "#3AD900"
       }
@@ -221,7 +228,6 @@
       "scope": [
         "constant",
         "constant.character",
-        "constant.character.escape",
         "constant.other",
         "constant.numeric",
         "constant.language"
@@ -268,7 +274,7 @@
         "entity.name.type"
       ],
       "settings": {
-        "foreground": "#FFDD00"
+        "foreground": "#FFFFFF"
       }
     },
     {
