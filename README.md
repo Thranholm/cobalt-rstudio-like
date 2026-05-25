@@ -19,14 +19,14 @@ A Cobalt color theme for **Positron** and **VS Code**, inspired by RStudio's cla
 3. Search for **Cobalt (RStudio like)**
 4. Click **Install**
 
-### Manual Installation
+<!--- ### Manual Installation
 
 Download the `.vsix` file and install it:
 
 ```bash
 code --install-extension cobalt-rstudio-like-*.vsix
 ```
-
+--->
 ## Activation
 
 1. Open the **Command Palette**:
@@ -42,13 +42,6 @@ MIT
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/cobalt-rstudio-like/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/thranholm/cobalt-rstudio-like/issues).
 
-## Author
-
-**thranholm**
-
----
-
-Made with ❤️ for R users and Positron enthusiasts.
 
