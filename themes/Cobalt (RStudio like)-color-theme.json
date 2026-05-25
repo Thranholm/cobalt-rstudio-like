@@ -9,8 +9,9 @@
     "editor.selectionHighlightBackground": "#ffffff00",
     "editor.selectionHighlightBorder":  "#b36639b1",
     "editor.findMatchBackground": "#254faa",
+    "editor.findMatchBorder": "#254faa",
     "editor.findMatchHighlightBackground": "#334F6799",
-    "editor.wordHighlightBackground": "#0011fc00",
+    "editor.wordHighlightBackground": "#fc8f0000",
     "editor.wordHighlightStrongBackground": "#fc8f0081",
     "editorCursor.foreground": "#FFFFFF",
     "editorWhitespace.foreground": "#FFFFFF26",
@@ -104,6 +105,9 @@
     "button.background": "#FF9D00",
     "button.foreground": "#000000",
     "button.hoverBackground": "#FFB054",
+    "button.secondaryBackground": "#1A3954",
+    "button.secondaryForeground": "#FFFFFF",
+    "button.secondaryHoverBackground": "#2a4f6e",
 
     "list.activeSelectionBackground": "#1A3954",
     "list.activeSelectionForeground": "#FFFFFF",
@@ -152,7 +156,6 @@
     "gitDecoration.untrackedResourceForeground": "#80FFBB",
     "gitDecoration.ignoredResourceForeground": "#8091A0",
 
-    //"positronConsole.errorBackground":"#046c9849",
     "positronConsole.errorBackground":"#334F67",
 
     "editorGroup.border": "#2a2a2a",
@@ -171,7 +174,17 @@
 
     "positronConsole.ansiBlue": "#71b8ff",
 
-    "textCodeBlock.background": "#1A3954",
+    "textCodeBlock.background": "#1A395400",
+
+    "editorSuggestWidget.selectedForeground": "#FFFFFF",
+    "editorWidget.foreground": "#CCCCCC",
+    "menu.background": "#011e3a",
+    "menu.foreground": "#CCCCCC",
+    "menu.selectionBackground": "#1A3954",
+    "menu.border": "#1A3954",
+    "keybindingLabel.background": "#1A3954",
+    "keybindingLabel.foreground": "#CCCCCC",
+    "keybindingLabel.border": "#8091A0",
  
   },
   "tokenColors": [
@@ -187,17 +200,11 @@
       "name": "String",
       "scope": ["string", 
                 "string.quoted", 
+                "string.regexp",
                 "constant.character.escape",
                 "punctuation.definition.string.begin.yaml", 
                 "punctuation.definition.string.end.yaml"
               ],
-      "settings": {
-        "foreground": "#3AD900"
-      }
-    },
-    {
-      "name": "String Regexp",
-      "scope": ["string.regexp"],
       "settings": {
         "foreground": "#3AD900"
       }
@@ -278,6 +285,13 @@
       }
     },
     {
+      "name": "Type",
+      "scope": ["support.type"],
+      "settings": {
+        "foreground": "#FFEE80"
+      }
+    },
+    {
       "name": "Entity Tag",
       "scope": ["entity.name.tag", "meta.tag"],
       "settings": {
@@ -302,7 +316,7 @@
       "name": "Invalid",
       "scope": ["invalid"],
       "settings": {
-        "foreground": "#F8F8F8",
+        "foreground": "#F8F8F8"
       }
     },
     {
@@ -321,15 +335,15 @@
     },
     {
       "name": "Markup Bold",
-      "scope": ["markup.bold"],
+      "scope": ["markup.bold", "punctuation.definition.bold.quarto"],
       "settings": {
-        "foreground": "#FFEE80",
+        "foreground": "#FF628C",
         "fontStyle": "bold"
       }
     },
     {
       "name": "Markup Italic",
-      "scope": ["markup.italic", "punctuation.definition.italic.quarto", "markup.bold", "punctuation.definition.bold.quarto"],
+      "scope": ["markup.italic", "punctuation.definition.italic.quarto"],
       "settings": {
         "foreground": "#FF628C",
         "fontStyle": "italic"
@@ -360,14 +374,14 @@
       "name": "Quarto fenced code block",
       "scope": "markup.fenced_code.block.markdown",
       "settings": {
-        "foreground": "#FF9D00",
+        "foreground": "#FF9D00"
       }
     },
     {
       "name": "Quarto punctuation code block",
       "scope": "punctuation.definition.markdown",
       "settings": {
-        "foreground": "#FF9D00",
+        "foreground": "#FF9D00"
       }
     },
     {
@@ -392,13 +406,6 @@
       "scope": ["variable.parameter"],
       "settings": {
         "foreground": "#ffffff"
-      }
-    },
-    {
-      "name": "Type",
-      "scope": ["entity.name.type", "support.type"],
-      "settings": {
-        "foreground": "#FFEE80"
       }
     },
     {
