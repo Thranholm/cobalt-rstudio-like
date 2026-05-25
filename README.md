@@ -42,6 +42,6 @@ MIT
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/thranholm/cobalt-rstudio-like/issues).
+Please help make the theme as close to RStudio's Cobalt theme as possible. Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/thranholm/cobalt-rstudio-like/issues).
 
 
