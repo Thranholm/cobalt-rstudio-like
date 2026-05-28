@@ -2,3 +2,5 @@ node_modules
 *.vsix
 .env
 .DS*
+.positai
+logocode.R

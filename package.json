@@ -36,5 +36,10 @@
         "path": "./themes/Cobalt (RStudio like)-color-theme.json"
       }
     ]
+  },
+  "icon": "./assets/images/logo.png",
+  "galleryBanner": {
+    "color": "#1e1e2e",
+    "theme": "dark"
   }
 }
